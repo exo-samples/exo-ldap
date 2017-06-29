@@ -1,0 +1,108 @@
+version: '3.1'
+
+volumes:
+  exo:
+  postgres:
+  mongo:
+
+services:
+  ldap:
+    image: dinkel/openldap:latest
+    environment:
+      - SLAPD_PASSWORD=password
+      - SLAPD_DOMAIN=sample.dom
+    volumes:
+      - $PWD/ldap-prepopulate:/etc/ldap.dist/prepopulate
+  ######################
+  ## EXO
+  ######################
+  exo:
+    image: exoplatform/exo:4.4.1_2
+    # container_name: exo
+    # this is needed for Java Mail to use exoplatform.com domain in the smtp HELO command for Google Apps smtp relay)
+    # if a hostname is not enforced a hash is generated has container hostname
+    hostname: exo
+    environment:
+      EXO_DEBUG: "true"
+      EXO_REGISTRATION: "true"
+      EXO_ADDONS_LIST: "undef"
+      # EXO_ADDONS_CATALOG_URL: "file:///etc/exo/catalog.json"
+      EXO_JVM_SIZE_MAX: 2g
+      EXO_JVM_SIZE_MIN: 2g
+      # EXO_UPLOAD_MAX_FILE_SIZE: 1000
+      EXO_PROXY_SSL: "false"
+      EXO_DATA_DIR: /srv/exo
+      EXO_JODCONVERTER_PORTS: 2002,2003,2004,2005
+      EXO_DB_TYPE: postgres
+      EXO_DB_NAME: exo
+      EXO_DB_USER: exo
+      EXO_DB_PASSWORD: exo
+      EXO_DB_HOST: postgres
+      #EXO_DB_PORT: 5432
+      #EXO_MONGO_HOST: mongo
+      #EXO_MONGO_PORT: 27017
+      #EXO_MONGO_DB_NAME: chat
+      #EXO_ES_EMBEDDED: "false"
+      #EXO_ES_SCHEME: http
+      #EXO_ES_HOST: search
+      #EXO_ES_PORT: 9200
+      #EXO_ES_INDEX_REPLICA_NB: 1
+      #EXO_ES_INDEX_SHARD_NB: 6
+      # EXO_MAIL_FROM: noreply@exoplatform.com
+      # EXO_MAIL_SMTP_HOST: smtp-relay.gmail.com
+      # EXO_MAIL_SMTP_PORT: 587
+      # EXO_MAIL_SMTP_STARTTLS: "true"
+      #EXO_JMX_ENABLED: "true"
+      #EXO_JMX_RMI_REGISTRY_PORT: 10001
+      #EXO_JMX_RMI_SERVER_PORT: 10002
+      #EXO_JMX_RMI_SERVER_HOSTNAME: localhost
+      #EXO_REGISTRATION: "false"
+    ports:
+      - "127.0.0.1:8080:8080"
+      # Debug ports
+      - "127.0.0.1:8000:8000"
+      #- "127.0.0.1:10001:10001"
+      #- "127.0.0.1:10002:10002"
+    volumes:
+      - exo:/srv/exo:rw
+      #- $PWD/conf/exo/logback.xml:/opt/exo/conf/logback.xml
+      #- $PWD/../packaging/addon/src/main/conf/web.xml:/opt/exo/conf/web.xml:ro
+      # - $PWD/packaging/addon/src/main/gatein/conf/exo.properties:/opt/exo/gatein/conf/exo.properties:ro
+      # - /srv/exo:/srv/exo:rw
+      # - /srv/etc/picketlink/configuration.xml:/etc/exo/portal/portal/configuration.xml
+      # - /srv/etc/picketlink/organization-integration-configuration.xml:/etc/exo/portal/portal/conf/platform/organization-integration-configuration.xml
+      # - /srv/etc/picketlink/idm-configuration.xml:/etc/exo/portal/portal/conf/organization/idm-configuration.xml
+      # - /srv/etc/picketlink/picketlink-idm-msad-readonly-config.xml:/etc/exo/portal/portal/conf/organization/picketlink-idm-msad-readonly-config.xml
+      #- ./catalog.json:/etc/exo/catalog.json:ro
+      #- ./exo-addons-chat-extension-pkg/target/exo-addons-chat-extension-pkg-1.3.x-SNAPSHOT.zip:/etc/exo/exo-addons-chat-extension-pkg-1.3.x-SNAPSHOT.zip:ro
+    depends_on:
+      - postgres
+      - mongo
+ ######################
+  ## POSTGRESQL
+  ######################
+  postgres:
+    image: postgres:9.4
+    #container_name: postgresql
+    #ports:
+    #  - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    #   - /srv/etc/mysql.cnf:/etc/mysql/conf.d/hosting.cnf:ro
+    environment:
+      POSTGRES_DB: exo
+      POSTGRES_USER: exo
+      POSTGRES_PASSWORD: exo
+  ######################
+  ## MONGO
+  ######################
+  mongo:
+    image: mongo:3.2
+    #container_name: mongo
+    ports:
+      - "127.0.0.1:27017:27017"
+    volumes:
+      - mongo:/data/db:rw
+    #   - /srv/etc/mongo.conf:/etc/mongod.conf:ro
+
+  
