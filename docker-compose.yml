@@ -38,10 +38,10 @@ services:
       EXO_DB_USER: exo
       EXO_DB_PASSWORD: exo
       EXO_DB_HOST: postgres
-      #EXO_DB_PORT: 5432
-      #EXO_MONGO_HOST: mongo
-      #EXO_MONGO_PORT: 27017
-      #EXO_MONGO_DB_NAME: chat
+      EXO_DB_PORT: 5432
+      EXO_MONGO_HOST: mongo
+      EXO_MONGO_PORT: 27017
+      EXO_MONGO_DB_NAME: chat
       #EXO_ES_EMBEDDED: "false"
       #EXO_ES_SCHEME: http
       #EXO_ES_HOST: search
