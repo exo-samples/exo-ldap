@@ -1,0 +1,8 @@
+dn: cn=test1, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test1
+uid: test1
+sn: test1
+userpassword: gtn
+mail: test1@exo-samples.org
+ou: users%   

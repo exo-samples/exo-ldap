@@ -1,0 +1,4 @@
+dn: ou=users, dc=exo-samples,dc=org
+ou: users
+description: all users
+objectclass: organizationalunit

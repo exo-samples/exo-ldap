@@ -7,10 +7,10 @@ volumes:
 
 services:
   ldap:
-    image: dinkel/openldap:latest
+    build: images/ldap
     environment:
       - SLAPD_PASSWORD=password
-      - SLAPD_DOMAIN=sample.dom
+      - SLAPD_DOMAIN=exo-samples.org
     volumes:
       - $PWD/ldap-prepopulate:/etc/ldap.dist/prepopulate
   ######################
@@ -88,7 +88,6 @@ services:
     #  - "127.0.0.1:5432:5432"
     volumes:
       - postgres:/var/lib/postgresql/data
-    #   - /srv/etc/mysql.cnf:/etc/mysql/conf.d/hosting.cnf:ro
     environment:
       POSTGRES_DB: exo
       POSTGRES_USER: exo
