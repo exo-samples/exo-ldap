@@ -13,6 +13,8 @@ services:
       - SLAPD_DOMAIN=exo-samples.org
     volumes:
       - $PWD/ldap-prepopulate:/etc/ldap.dist/prepopulate
+    ports:
+      - 127.0.0.1:389:389
   ######################
   ## EXO
   ######################
