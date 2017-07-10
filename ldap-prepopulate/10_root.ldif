@@ -1,9 +1,12 @@
 dn: cn=root, ou=users, dc=exo-samples,dc=org
+objectClass: top
 objectclass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
 cn: root
 uid: root
 sn: root
 userpassword: gtn
 mail: root@exo-samples.org
 ou: users
-ou: administrators
+ou: admins

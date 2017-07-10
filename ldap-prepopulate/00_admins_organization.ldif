@@ -1,0 +1,4 @@
+dn: ou=admins, dc=exo-samples,dc=org
+ou: admin
+description: all admins
+objectclass: organizationalunit
