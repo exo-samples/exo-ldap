@@ -1,0 +1,6 @@
+rootdn "cn=admin,dc=exo-samples,dc=org"
+rootpw password
+
+
+access to * 
+  by "cn=admin,dc=exo-samples,dc=org" write

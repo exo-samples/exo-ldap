@@ -11,8 +11,12 @@ services:
     environment:
       - SLAPD_PASSWORD=password
       - SLAPD_DOMAIN=exo-samples.org
+      - SLAPD_CONFIG_PASSWORD=password
+      #- SLAPD_FORCE_RECONFIGURE=true
     volumes:
-      - $PWD/ldap-prepopulate:/etc/ldap.dist/prepopulate
+      - $PWD/conf/ldap/prepopulate:/etc/ldap.dist/prepopulate
+      - $PWD/conf/ldap/access.ldif:/etc/ldap.dist/slapd.d/access.ldif
+      - $pwd/out:/out
     ports:
       - 127.0.0.1:389:389
   ######################
@@ -105,5 +109,3 @@ services:
     volumes:
       - mongo:/data/db:rw
     #   - /srv/etc/mongo.conf:/etc/mongod.conf:ro
-
-  
