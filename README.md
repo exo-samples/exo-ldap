@@ -33,4 +33,4 @@ With the default configuration declared on the project, you can use this credent
 | cn=root,ou=users,dc=exo-samples,dc=org | gtn | Read only |
 | cn=test1,ou=users,dc=exo-samples,dc=org | gtn | Read only |
 
-Example of connection as admin in jxplorer : ![Connection][doc/jxplorer_admin_connection.png]
+Example of connection as admin in jxplorer : ![Connection](doc/jxplorer_admin_connection.png)
