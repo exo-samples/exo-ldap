@@ -16,7 +16,7 @@ services:
     volumes:
       - $PWD/conf/ldap/prepopulate:/etc/ldap.dist/prepopulate
       - $PWD/conf/ldap/access.ldif:/etc/ldap.dist/slapd.d/access.ldif
-      - $pwd/out:/out
+      - $PWD/out:/out
     ports:
       - 127.0.0.1:389:389
   ######################
