@@ -1,3 +1,39 @@
+dn: cn=aymen, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: aymen
+uid: aymen
+sn: aymen
+userpassword: 123456
+mail: abbb@exo-samples.org
+ou: users%   
+
+dn: cn=iliÃ©s, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: iliÃ©s
+uid: iliÃ©s
+sn: iliÃ©s
+userpassword: 123456
+mail: iliÃ©s@exo-samples.org
+ou: users%   
+
+dn: cn=EMENA, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: EMENA
+uid: EMENA
+sn: EMENA
+userpassword: 123456
+mail: EMENA@exo-samples.org
+ou: users%   
+
+dn: cn=aymen1, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: aymen1
+uid: aymen1
+sn: aymen1
+userpassword: 123456
+mail: aymen1@exo-samples.org
+ou: users%  
+
 dn: cn=test1, ou=users, dc=exo-samples,dc=org
 objectclass: inetOrgPerson
 cn: test1
@@ -5,4 +41,863 @@ uid: test1
 sn: test1
 userpassword: gtn
 mail: test1@exo-samples.org
-ou: users%   
+ou: users%  
+
+dn: cn=test2, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test2
+uid: test2
+sn: test2
+userpassword: gtn
+mail: test2@exo-samples.org
+ou: users%
+
+dn: cn=test3, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test3
+uid: test3
+sn: test3
+userpassword: gtn
+mail: test3@exo-samples.org
+ou: users%
+
+dn: cn=Ali, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: Ali
+uid: Ali
+sn: Hamdi
+userpassword: gtn
+mail: ali@exo-samples.org
+ou: users%
+
+
+
+dn: cn=dhouha1, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: dhouha1
+uid:dhouha1
+sn: dhouha1
+userpassword: gtn
+mail: dhouha1@exo-samples.org
+ou: users%
+
+
+dn: cn=habib2, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: habib2
+uid: habib2
+sn: habib2
+userpassword: gtn
+mail: habib2@exo-samples.org
+ou: users%
+
+dn: cn=walid4, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: walid4
+uid: walid4
+sn: walid4
+userpassword: gtn
+mail: walid4@exo-samples.org
+ou: users%
+
+dn: cn=balkis5, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: balkis5
+uid: balkis5
+sn: balkis5
+userpassword: gtn
+mail: balkis5@exo-samples.org
+ou: users%
+
+dn: cn=malek6, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: malek6
+uid: malek6
+sn: malek6
+userpassword: gtn
+mail: malek6@exo-samples.org
+ou: users%
+
+dn: cn=zina7, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: zina7
+uid: zina7
+sn: zina7
+userpassword: gtn
+mail: zina@exo-samples.org
+ou: users%
+
+dn: cn=fares8, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: fares8
+uid: fares8
+sn:fares8
+userpassword: gtn
+mail: fares8@exo-samples.org
+ou: users%
+
+dn: cn=salah9, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: salah9
+uid: salah9
+sn: salah9
+userpassword: gtn
+mail: salah9@exo-samples.org
+ou: users%
+
+dn: cn=ameni!, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: ameni!
+uid: ameni
+sn: ameni
+userpassword: gtn
+mail: ameni@exo-samples.org
+ou: users%
+
+dn: cn=hamadi=, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: hamadi=
+uid: hamadi=
+sn: hamadi=
+userpassword: gtn
+mail: hamadi=@exo-samples.org
+ou: users%
+
+dn: cn=boub?, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: boub?
+uid: boub?
+sn: boub?
+userpassword: gtn
+mail: boub?@exo-samples.org
+ou: users%
+
+
+dn: cn=ayoub@, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: ayoub@
+uid: ayoub@
+sn: ayoub@
+userpassword: gtn
+mail: ayoub@@exo-samples.org
+ou: users%
+
+dn: cn=mariem_a, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: mariem_a
+uid: mariem_a
+sn: mariem_a
+userpassword: gtn
+mail: mariem_a@exo-samples.org
+ou: users%
+
+dn: cn=rania-a, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: rania-a
+uid: rania-a
+sn: rania-a
+userpassword: gtn
+mail: rania-a@exo-samples.org
+ou: users%
+
+dn: cn=oussam.a, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: oussam.a
+uid: oussam.a
+sn: oussam.a
+userpassword: gtn
+mail: oussam.a@exo-samples.org
+ou: users%
+
+dn: cn=\23nizar, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: #nizar
+uid: #nizar
+sn: #nizar
+userpassword: gtn
+mail: nizar@exo-samples.org
+ou: users%
+
+dn: cn=rafael$, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: rafael$
+uid: rafael$
+sn: rafael$
+userpassword: gtn
+mail: rafael$@exo-samples.org
+ou: users%
+
+dn: cn=kais%, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: kais%
+uid: kais%
+sn: kais%
+userpassword: gtn
+mail: kais%@exo-samples.org
+ou: users%
+
+dn: cn=slim&, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: slim&
+uid: slim&
+sn: slim&
+userpassword: gtn
+mail: slim&@exo-samples.org
+ou: users%
+
+dn: cn=diam's, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: diam's
+uid: diam's
+sn: diam's
+userpassword: gtn
+mail: diam's@exo-samples.org
+ou: users%
+
+dn: cn=takoua(, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: takoua(
+uid: takoua(
+sn: takoua(
+userpassword: gtn
+mail: takoua@exo-samples.org
+ou: users%
+
+dn: cn=ghada), ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: ghada)
+uid: ghada)
+sn: ghada)
+userpassword: gtn
+mail: ghada@exo-samples.org
+ou: users%
+
+dn: cn=zouhaier, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: zouhaier
+uid: zouhaier
+sn: zouhaier
+userpassword: gtn
+mail: zouhaier@exo-samples.org
+ou: users%
+
+dn: cn=youssef\3C, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: youssef
+uid: youssef<
+sn: youssef<
+userpassword: gtn
+mail: youssef@exo-samples.org
+ou: users%
+
+dn: cn=badis, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: badis
+uid: badis>
+sn: badis>
+userpassword: gtn
+mail: badis@exo-samples.org
+ou: users%
+
+dn: cn=issam^, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: issam^
+uid: issam^
+sn: issam^
+userpassword: gtn
+mail: issam@exo-samples.org
+ou: users%
+
+dn: cn=israa`, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: israa`
+uid: israa`
+sn: israa`
+userpassword: gtn
+mail: israa@exo-samples.org
+ou: users%
+
+dn: cn=maha{, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: maha{
+uid: maha{
+sn: maha{
+userpassword: gtn
+mail: maha@exo-samples.org
+ou: users%
+
+dn: cn=nermine}, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: nermine}
+uid: nermine}
+sn: nermine}
+userpassword: gtn
+mail: nermine@exo-samples.org
+ou: users%
+
+dn: cn=salou\22a, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: salou"a
+uid: salou"a
+sn: salou"a
+userpassword: gtn
+mail: saloua@exo-samples.org
+ou: users%
+
+dn: cn=asma, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: asma
+uid: asma
+sn: asma
+userpassword: gtn
+mail: asma@exo-samples.org
+ou: users%
+
+dn: cn=chema/, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: chema/
+uid: chema/
+sn: chema/
+userpassword: gtn
+mail: chema/@exo-samples.org
+ou: users%
+
+dn: cn=karima, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: karima
+uid: karima;
+sn: karima;
+userpassword: gtn
+mail: karima@exo-samples.org
+ou: users%
+
+dn: cn=aÃ¯da, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: aÃ¯da
+uid: aÃ¯da
+sn: aÃ¯da
+userpassword: gtn
+mail: ayda@exo-samples.org
+ou: users%
+
+dn: cn=Ã©ric, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: Ã©ric
+uid: Ã©ric
+sn: Ã©ric
+userpassword: gtn
+mail: Ã©ric@exo-samples.org
+ou: users%
+
+dn: cn=Ã mel, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: Ã mel
+uid: Ã mel
+sn: Ã mel
+userpassword: gtn
+mail: Ã mel@exo-samples.org
+ou: users%
+
+dn: cn=franÃ§ois, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: franÃ§ois
+uid: franÃ§ois
+sn: franÃ§ois
+userpassword: gtn
+mail: franÃ§ois@exo-samples.org
+ou: users%
+
+dn: cn=Ã®nes, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: Ã®nes
+uid: Ã®nes
+sn: Ã®nes
+userpassword: gtn
+mail: Ã®nes@exo-samples.org
+ou: users%
+
+dn: cn=Ã©manuel, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: Ã©manuel
+uid: Ã©manuel
+sn: Ã©manuel
+userpassword: gtn
+mail: Ã©manuel@exo-samples.org
+ou: users%
+
+dn: cn=hÃ¹go, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: hÃ¹go
+uid: hÃ¹go
+sn: hÃ¹go
+userpassword: gtn
+mail: hÃ¹go@exo-samples.org
+ou: users%
+
+dn: cn=amal, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: amal
+uid: amal
+sn: amal
+userpassword: gtn
+mail: amal@exo-samples.org
+ou: users%
+
+dn: cn=khawther, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: khawther
+uid: khawther
+sn: khawther
+userpassword: gtn
+mail: khawther@exo-samples.org
+ou: users%
+
+dn: cn=imen, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: imen
+uid: imen
+sn: imen
+userpassword: gtn
+mail: imen@exo-samples.org
+ou: users%
+
+dn: cn=oh, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: oh
+uid: oh
+sn: oh
+userpassword: gtn
+mail: oh@exo-samples.org
+ou: users%
+
+dn: cn=med ali, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: med ali
+uid: med ali
+sn: dhifallah
+userpassword: gtn
+mail: medali@exo-samples.org
+ou: users%
+
+dn: cn=test4, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test4
+uid: test4
+sn: test4
+userpassword: gtn
+mail: test3@exo-samples.org
+ou: users%
+
+dn: cn=test5, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test5
+uid: test5
+sn: test5
+userpassword: gtn
+mail: test5@exo-samples.org
+ou: users%
+
+dn: cn=test6, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test6
+uid: test6
+sn: test6
+userpassword: gtn
+mail: test6@exo-samples.org
+ou: users%
+
+dn: cn=test7, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test7
+uid: test7
+sn: test7
+userpassword: gtn
+mail: test7@exo-samples.org
+ou: users%
+
+dn: cn=test8, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test8
+uid: test8
+sn: test8
+userpassword: gtn
+mail: test8@exo-samples.org
+ou: users%
+
+dn: cn=test9, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test9
+uid: test9
+sn: test9
+userpassword: gtn
+mail: test9@exo-samples.org
+ou: users%
+
+dn: cn=test10, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test10
+uid: test10
+sn: test10
+userpassword: gtn
+mail: test10@exo-samples.org
+ou: users%
+
+dn: cn=test11, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test11
+uid: test11
+sn: test11
+userpassword: gtn
+mail: test11@exo-samples.org
+ou: users%
+
+dn: cn=test12, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test12
+uid: test12
+sn: test12
+userpassword: gtn
+mail: test12@exo-samples.org
+ou: users%
+
+dn: cn=test13, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test13
+uid: test13
+sn: test13
+userpassword: gtn
+mail: test13@exo-samples.org
+ou: users%
+
+dn: cn=test14, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test14
+uid: test14
+sn: test14
+userpassword: gtn
+mail: test14@exo-samples.org
+ou: users%
+
+dn: cn=test15, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test15
+uid: test15
+sn: test15
+userpassword: gtn
+mail: test15@exo-samples.org
+ou: users%
+
+dn: cn=test16, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test16
+uid: test16
+sn: test16
+userpassword: gtn
+mail: test16@exo-samples.org
+ou: users%
+
+dn: cn=test17, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test17
+uid: test17
+sn: test17
+userpassword: gtn
+mail: test3@exo-samples.org
+ou: users%
+
+dn: cn=test18, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test18
+uid: test18
+sn: test18
+userpassword: gtn
+mail: test18@exo-samples.org
+ou: users%
+
+dn: cn=test19, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test19
+uid: test19
+sn: test19
+userpassword: gtn
+mail: test19@exo-samples.org
+ou: users%
+
+dn: cn=test20, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test20
+uid: test20
+sn: test20
+userpassword: gtn
+mail: test20@exo-samples.org
+ou: users%
+
+dn: cn=test21, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test21
+uid: test21
+sn: test21
+userpassword: gtn
+mail: test21@exo-samples.org
+ou: users%
+
+dn: cn=test22, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test22
+uid: test22
+sn: test22
+userpassword: gtn
+mail: test22@exo-samples.org
+ou: users%
+
+dn: cn=test23, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test23
+uid: test23
+sn: test23
+userpassword: gtn
+mail: test23@exo-samples.org
+ou: users%
+
+dn: cn=test24, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test24
+uid: test24
+sn: test24
+userpassword: gtn
+mail: test24@exo-samples.org
+ou: users%
+
+dn: cn=test25, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test25
+uid: test25
+sn: test25
+userpassword: gtn
+mail: test25@exo-samples.org
+ou: users%
+
+dn: cn=test26, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test26
+uid: test26
+sn: test26
+userpassword: gtn
+mail: test26@exo-samples.org
+ou: users%
+
+dn: cn=test27, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: test27
+uid: test27
+sn: test27
+userpassword: gtn
+mail: test27@exo-samples.org
+ou: users%
+
+dn: cn=aaa, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: aaa
+uid: aaa
+sn: aaa
+userpassword: gtn
+mail: aaa@exo-samples.org
+ou: users%
+
+dn: cn=bbb, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: bbb
+uid: bbb
+sn: bbb
+userpassword: gtn
+mail: bbb@exo-samples.org
+ou: users%
+
+dn: cn=ccc, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: ccc
+uid: ccc
+sn: ccc
+userpassword: gtn
+mail: ccc@exo-samples.org
+ou: users%
+
+dn: cn=ddd, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: ddd
+uid: ddd
+sn: ddd
+userpassword: gtn
+mail: ddd@exo-samples.org
+ou: users%
+
+dn: cn=eee, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: eee
+uid: eee
+sn: eee
+userpassword: gtn
+mail: eee@exo-samples.org
+ou: users%
+
+dn: cn=fff, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: fff
+uid: fff
+sn: fff
+userpassword: gtn
+mail: fff@exo-samples.org
+ou: users%
+
+dn: cn=ggg, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: ggg
+uid: ggg
+sn: ggg
+userpassword: gtn
+mail: ggg@exo-samples.org
+ou: users%
+
+dn: cn=hhh, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: hhh
+uid: hhh
+sn: hhh
+userpassword: gtn
+mail: hhh@exo-samples.org
+ou: users%
+
+dn: cn=iii, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: iii
+uid: iii
+sn: iii
+userpassword: gtn
+mail: iii@exo-samples.org
+ou: users%
+
+dn: cn=jjj, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: jjj
+uid: jjj
+sn: jjj
+userpassword: gtn
+mail: jjj@exo-samples.org
+ou: users%
+
+dn: cn=kkk, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: kkk
+uid: kkk
+sn: kkk
+userpassword: gtn
+mail: kkk@exo-samples.org
+ou: users%
+
+dn: cn=lll, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: lll
+uid: lll
+sn: lll
+userpassword: gtn
+mail: lll@exo-samples.org
+ou: users%
+
+dn: cn=mmm, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: mmm
+uid: mmm
+sn: mmm
+userpassword: gtn
+mail: mmm@exo-samples.org
+ou: users%
+
+dn: cn=nnn, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: nnn
+uid: nnn
+sn: nnn
+userpassword: gtn
+mail: nnn@exo-samples.org
+ou: users%
+
+dn: cn=ooo, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: ooo
+uid: ooo
+sn: ooo
+userpassword: gtn
+mail: ooo@exo-samples.org
+ou: users%
+
+dn: cn=ppp, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: ppp
+uid: ppp
+sn: ppp
+userpassword: gtn
+mail: ppp@exo-samples.org
+ou: users%
+
+dn: cn=qqq, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: qqq
+uid: qqq
+sn: qqq
+userpassword: gtn
+mail: qqq@exo-samples.org
+ou: users%
+
+dn: cn=rrr, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: rrr
+uid: rrr
+sn: rrr
+userpassword: gtn
+mail: rrr@exo-samples.org
+ou: users%
+
+dn: cn=sss, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: sss
+uid: sss
+sn: sss
+userpassword: gtn
+mail: sss@exo-samples.org
+ou: users%
+
+dn: cn=ttt, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: ttt
+uid: ttt
+sn: ttt
+userpassword: gtn
+mail: ttt@exo-samples.org
+ou: users%
+
+dn: cn=uuu, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: uuu
+uid: uuu
+sn: uuu
+userpassword: gtn
+mail: uuu@exo-samples.org
+ou: users%
+
+dn: cn=vvv, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: vvv
+uid: vvv
+sn: vvv
+userpassword: gtn
+mail: vvv@exo-samples.org
+ou: users%
+
+dn: cn=www, ou=users, dc=exo-samples,dc=org
+objectclass: inetOrgPerson
+cn: www
+uid: www 
+sn: www
+userpassword: gtn
+mail: www@exo-samples.org
+ou: users%
