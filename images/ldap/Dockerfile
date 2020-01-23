@@ -3,4 +3,5 @@
 FROM dinkel/openldap:latest 
 
 # Install ldap tools to help diagnosis
-RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y ldap-utils less
+RUN apt-get purge -y slapd
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y slapd ldap-utils less
