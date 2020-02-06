@@ -1,0 +1,6 @@
+dn: cn=group1, ou=groups, dc=exo-samples,dc=org
+objectClass: top
+objectclass: groupOfNames
+cn: group1
+member: cn=group11,cn=group1,ou=groups,dc=exo-samples,dc=org
+member: cn=test1,ou=users,dc=exo-samples,dc=org
